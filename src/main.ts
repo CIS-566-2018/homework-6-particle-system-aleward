@@ -65,7 +65,7 @@ function loadScene() {
   let offsets: Float32Array = new Float32Array(offsetsArray);
   let colors: Float32Array = new Float32Array(colorsArray);
   square.setInstanceVBOs(offsets, colors);
-  square.setNumInstances(n * n * n); // 10x10 grid of "particles"
+  square.setNumInstances(n * n * n); // 25x25x25 grid of "particles"
 }
 
 function squareVBOUpdate() {
